@@ -23,13 +23,13 @@ def directors_totals(nds)
   total = 0
   name = nds[row_idx][:name]
   while row_idx < nds.length do
-    total = gross_for_director(name)
+    total = gross_for_director(directors_database)
   end
   result[name] = total
   total = 0
   row_idx += 1
 end
-result
+p result
 
 
 # Write a method that, given an NDS creates a new Hash
