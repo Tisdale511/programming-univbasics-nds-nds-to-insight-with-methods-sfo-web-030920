@@ -24,10 +24,11 @@ def directors_totals(nds)
   name = nds[row_idx][:name]
   while row_idx < nds.length do
     total = gross_for_director(directors_database)
+    row_idx += 1
   end
   result[name] = total
   total = 0
-  row_idx += 1
+  
 end
 p result
 
