@@ -29,7 +29,7 @@ def directors_totals(nds)
   total = 0
   row_idx += 1
 end
-p result
+result
 
 
 # Write a method that, given an NDS creates a new Hash
