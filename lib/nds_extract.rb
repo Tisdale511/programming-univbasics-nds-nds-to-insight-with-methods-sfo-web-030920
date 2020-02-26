@@ -8,7 +8,7 @@ def gross_for_director(director_data)
   gross = 0
   while col_idx < director_data[:movies].length do
     gross += director_data[:movies][col_idx][:worldwide_gross]
-    binding.pry
+    #binding.pry
     col_idx += 1
   end
    gross
