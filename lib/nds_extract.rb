@@ -11,7 +11,7 @@ def gross_for_director(director_data)
     binding.pry
     col_idx += 1
   end
-  #return gross
+   gross
 end
 
 #binding.pry
