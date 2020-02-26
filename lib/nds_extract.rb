@@ -19,6 +19,7 @@ def directors_totals(nds)
   result = {}
   idx = 0
   while idx < nds.length do
+    gross_for_director(nds[idx])
     binding.pry
     idx += 1
   end
