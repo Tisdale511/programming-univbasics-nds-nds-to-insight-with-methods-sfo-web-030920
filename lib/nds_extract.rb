@@ -15,21 +15,15 @@ def gross_for_director(director_data)
 end
 
 #binding.pry
-result = {}
 def directors_totals(nds)
-  #name = nds[:name]
-  #gross_total = nds[row_idx][:movies][col_idx][:worldwide_gross]
-  row_idx = 0
-  total = 0
-  name = nds[row_idx][:name]
-  while row_idx < nds.length do
-    total = gross_for_director(directors_database)
+  result = {}
+  idx = 0
+  while idx < nds.length do
+    binding.pry
+    idx += 1
   end
-  result[name] = total
-  total = 0
-  row_idx += 1
 end
-p result
+
 
 
 # Write a method that, given an NDS creates a new Hash
